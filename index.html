@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<!-- language default & docu direction set left to right -->
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- font awesome cdn link for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <title>Random Quote Generator</title>
+</head>
+<body>
+    <div class="imageContainer">
+        <a id="imageLink" href="#">
+            <img alt="unsplash image" id="unsplashImage" style="opacity: 0.8;"/>
+        </a>
+
+        <div class="wrapper" id="quote-box">
+            <header>Quote of the Day</header>
+            <div class="content">
+                <div class="quote-area">
+                    <i class="fas fa-quote-left"></i>
+                    <p class="quote" id="text">The greatest glory in living lies not in never falling, but in rising every time we fall.</p>
+                    <i class="fas fa-quote-right"></i>
+                </div>
+                <div class="author">
+                    <span>__</span>
+                    <span class="name" id="author">Nelson Mandela</span>
+                </div>
+            </div>
+            <div class="buttons">
+                <div class="features">
+                    <ul>
+                        <li class="sound" id="sound"><i class="fas fa-volume-up"></i></li>
+                        <li class="copy" id="copy"><i class="fas fa-copy"></i></li>
+                        <li class="twitter" id="tweet-quote"><i class="fab fa-twitter"></i></li>
+                    </ul>
+                    <button id="new-quote">New Quote</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <p class="imageDetails">Photo by <a id="creator" href="#">NAME</a> on <a id="imageLink" href="#">Unsplash!</a></p> -->
+    <p class="imageDetails">Photo by <a id="creator" href="#">NAME</a> on <a href="https://www.unsplash.com">Unsplash</a>!</p>
+    </div>
+
+    <script src="script.js"></script>
+    
+</body>
+</html>
